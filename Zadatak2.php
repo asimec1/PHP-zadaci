@@ -14,10 +14,15 @@
             <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         </head>
     <body>
-       <h1>'. $title .'</h1>
-       <p>Da Vincijev kod je kriminalistički triler američkog pisca
-       Dana Browna.<br>
-       <a href="'.$link.'" target="_blank">Wikipedia</a></p>
+        <h1>';
+        print $title;
+        print '</h1>
+        <p>Da Vincijev kod je kriminalistički triler američkog pisca Dana Browna.<br>
+        <a href="';
+        print $link;
+        print '" target="_blank">';
+        print $link;
+        print '</a></p>
     </body>
     </html>';
 ?>
